@@ -1,0 +1,22 @@
+GitHub Docs
+Create depository
+GitHub cheat code
+Important codes:
+cd: change directories
+ls: shows what’s in the files you are in 
+pwd: shows you where you are 
+Cd -: put you back to the previous directory
+rm -rf .git: undo git init
+git add . : add everything from your local depository 
+Git
+Make a folder manually and go there using cd,pwd and ls in git bash
+Once you are in your desired directory and want to make it a local repository use: git init
+Use git status to know status of your folder
+Use git log to see the history of changes made to your folder
+Use git add [filename] to add the file to the staging area
+Use git commit -m “comment”  to commit the changes (you have to commit the file before you share it to the public repository
+Use git remote add origin [url] to connect your local repository to your public repository if you want to change the public repository of your local repository use this code: git remote set-url origin [url]
+
+
+Use git remote -v to verify if it’s connected
+To put the file you committed on your local repository and copy them to your public repository you can use the code git push -u origin master or git push -f origin master
